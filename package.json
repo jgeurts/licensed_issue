@@ -1,0 +1,14 @@
+{
+  "name": "licensed_issue",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repo to some license showing as 'other'",
+  "repository": "git@github.com:jgeurts/licensed_yarn.git",
+  "author": "Jim Geurts <jim@biacreations.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "lodash": "^4.17.21",
+    "pg": "^8.6.0"
+  }
+}
