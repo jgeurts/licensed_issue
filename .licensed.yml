@@ -12,3 +12,6 @@ allowed:
 
 reviewed:
   npm:
+
+apps:
+  - source_path: 'packages/*'
