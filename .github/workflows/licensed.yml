@@ -18,7 +18,5 @@ jobs:
         with:
           node-version: '14'
       - run: npm ci
-      - name: npm install for workspaces
-        run: for d in packages/*/ ; do (cd "$d" && npm install); done
       - run: licensed cache
       - run: licensed status
